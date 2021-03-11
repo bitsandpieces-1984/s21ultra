@@ -5,7 +5,7 @@ adb shell pm list packages -f
 pm list packages -f | grep bixby
 com.samsung.android.app.settings.bixby
 com.samsung.systemui.bixby2
-base.apk=com.samsung.android.bixby.service
+com.samsung.android.bixby.service
 com.samsung.android.bixbyvision.framework
 com.samsung.android.bixby.agent.dummy
 
