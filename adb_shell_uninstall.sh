@@ -9,8 +9,10 @@ package:/data/app/~~9QfdH2129f_H9DKzjgJZVg==/com.samsung.android.bixby.service-4
 package:/system/priv-app/BixbyVisionFramework3.5/BixbyVisionFramework3.5.apk=com.samsung.android.bixbyvision.framework
 package:/system/priv-app/BixbyAgentStub/BixbyAgentStub.apk=com.samsung.android.bixby.agent.dummy
 
-
 # uninstalls run
 adb shell pm uninstall -k --user 0 com.samsung.android.samsungpass
 adb shell pm uninstall -k --user 0 com.samsung.android.samsungpassautofill
 adb shell pm uninstall --user 0 com.google.android.youtube
+
+# install back the package
+adb shell cmd package install-existing com.samsung.android.samsungpass
