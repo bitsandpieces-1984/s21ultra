@@ -54,6 +54,11 @@ pm uninstall --user 0 com.sec.android.app.hwmoduletest
 pm uninstall --user 0 com.sec.android.app.wlantest
 pm uninstall --user 0 com.sec.epdgtestapp
 
+pm uninstall --user 0 com.diotek.sec.lookup.dictionary
+pm uninstall --user 0 com.samsung.android.accessibility.talkback
+
+com.sec.android.app.kids
+com.samsung.android.kidsinstallerhome
 
 # install back the package
 adb shell cmd package install-existing com.samsung.android.samsungpass
